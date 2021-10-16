@@ -83,11 +83,11 @@ nav.nav-produtos ul.nav li ul.nav li {
 }
 .banners-promocionais-statico .banners-promocionais-statico-12x {
   background-color: #ff0f9a;
-  background-image: url('../images/parcele-em-12x.jpg');
+  background-image: url(../images/equipes.jpg);
 }
 .banners-promocionais-statico .banners-promocionais-statico-todo-br {
   background-color: #b343c3;
-  background-image: url('../images/entrega-para-todo-brasil.jpg');
+  background-image: url(../images/evento.jpg);
 }
 .banners-promocionais-statico .banners-promocionais-statico-12x,
 .banners-promocionais-statico .banners-promocionais-statico-todo-br {
