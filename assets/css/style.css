@@ -125,48 +125,48 @@ nav.nav-produtos ul.nav li ul.nav li {
 .produtos .produtos-container {
   margin: 30px 0;
 }
-.produtos .produtos-container .produtos-itens {
+.produtos .produtos-container .ranking {
   color: #343a40;
 }
-.produtos .produtos-container .produtos-itens h2 {
+.produtos .produtos-container .ranking h2 {
   font-size: 19px;
   margin: 10px 0 0;
 }
-.produtos .produtos-container .produtos-itens .produtos-stars {
+.produtos .produtos-container .ranking {
   font-size: 10px;
 }
-.produtos .produtos-container .produtos-itens .produtos-stars svg {
+.produtos .produtos-container .ranking svg {
   fill: #ffc107;
 }
-.produtos .produtos-container .produtos-itens .produtos-preco {
+.produtos .produtos-container .ranking .colocacao {
   font-size: 16px;
 }
 
-.produtos-compra figure {
+.ranking figure {
   margin: 0;
 }
-.produtos-compra .produtos-conteudo h1 {
+.ranking .produtos-conteudo h1 {
   margin: 0;
   font-size: 32px;
 }
-.produtos-compra .produtos-conteudo p {
+.ranking .produtos-conteudo p {
   font-size: 16px;
 }
-.produtos-compra .produtos-preco .produtos-stars svg {
+.ranking .colocacao svg {
   fill: #ffc107;
 }
-.produtos-compra .produtos-preco strong {
+.ranking .colocacao strong {
   font-size: 40px;
 }
-.produtos-compra .produtos-preco form {
+.ranking .colocacao form {
   font-weight: 100;
 }
-.produtos-compra .produtos-preco form label {
+.ranking .colocacao form label {
   margin: 0;
 }
-.produtos-compra .produtos-preco .produtos-stars svg,
-.produtos-compra .produtos-preco strong span,
-.produtos-compra .produtos-preco form {
+.ranking .colocacao svg,
+.ranking .colocacao strong span,
+.ranking .colocacao form {
   font-size: 16px;
 }
 
