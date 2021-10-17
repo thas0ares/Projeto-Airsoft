@@ -126,7 +126,7 @@ nav.nav-produtos ul.nav li ul.nav li {
   margin: 30px 47px;
 }
 .produtos .produtos-container .ranking {
-  color: #343a40;
+  color: #070808;
 }
 .produtos .produtos-container .ranking h2 {
   font-size: 19px;
@@ -136,7 +136,7 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-size: 10px;
 }
 .produtos .produtos-container .ranking svg {
-  fill: #ffc107;
+  fill: #1d1809;
 }
 .produtos .produtos-container .ranking .colocacao {
   font-size: 16px;
@@ -390,7 +390,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
@@ -828,7 +828,7 @@ pre code {
 .container-xl {
   width: 100%;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 400px;
   margin-right: auto;
   margin-left: auto;
 }
