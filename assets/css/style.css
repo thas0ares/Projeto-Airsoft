@@ -11690,3 +11690,167 @@ h5 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* ### CSS - Login */
+
+main.container {
+  background: white;
+  max-width: 500px;
+  min-height: 20vh;
+  padding: 5px 2.5px 5px;
+  box-shadow: 5px 5px 15px #020100;
+  border-radius: 20px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+main h1 {
+  font-weight: 800;
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+  margin-top: 10%;
+}
+
+form {
+  padding: 100px;
+  margin: auto;
+  padding-top: 40px;
+  font-family: sans-serif;
+}
+
+label {
+  font-weight: bold;
+}
+
+.email {
+  position: relative;
+}
+
+.email input {
+  outline: none;
+  font-size: 0.9rem;
+  color: #000700;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.email input::placeholder {
+  color: #0005;
+}
+
+.senha {
+  position: relative;
+}
+
+.senha input {
+  outline: none;
+  font-size: 0.9rem;
+  color: #000700;
+  border-radius: 5px;
+  width: 80%;
+}
+.senha input::placeholder {
+  color: #0005;
+}
+
+form input[type='submit'] {
+  padding: 10px 20px;
+  background: linear-gradient(to left, #ec8f14, #e78c25);
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+form input[type='submit']:hover {
+  letter-spacing: 5px;
+  background: linear-gradient(to right, #ce7611, #d38d24);
+  text-align: center;
+}
+
+#resgiter-container {
+  text-align: left;
+  font-weight: bold;
+  color: #ce5f16;
+  font-size: 80%;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10%;
+}
+
+#forgot-pass {
+  text-align: right;
+  font-weight: bold;
+  color: #ce5f16;
+  font-size: 80%;
+  cursor: pointer;
+  display: block;
+}
+
+form .email:first-child {
+  margin-bottom: 1.5rem;
+}
+form .senha:first-child {
+  margin-bottom: 1.5rem;
+}
+
+.email .underline::before {
+  content: '';
+  position: relative;
+  height: 1px;
+  width: 100%;
+  bottom: -5;
+  left: 0px;
+  background: #020201;
+}
+
+.senha .underline::before {
+  content: '';
+  position: relative;
+  height: 1px;
+  width: 100%;
+  bottom: -5;
+  left: 0px;
+  background: #020201;
+}
+
+.email .underline::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: -5;
+  left: 0;
+  background: linear-gradient(45deg, #d6711e, #c27b12);
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+.email input:focus ~ .underline::after {
+  transform: scaleX(1);
+}
+
+.senha .underline::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: -5;
+  left: 0;
+  background: linear-gradient(45deg, #d6711e, #c27b12);
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+.senha input:focus ~ .underline::after {
+  transform: scaleX(1);
+}
