@@ -180,10 +180,13 @@ nav.nav-produtos ul.nav li ul.nav li {
 
 footer {
   background: #797979;
-  padding: 25px 0;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
   color: #797979;
-  align-items: center;
+  text-align: center;
 }
+
 footer a {
   color: #000;
 }
@@ -196,8 +199,8 @@ footer a:hover {
   cursor: pointer;
   display: block;
   position: relative;
-  margin-top: 20%;
   text-align: center;
+  margin-top: 7%;
 }
 
 #termos {
@@ -209,30 +212,30 @@ footer a:hover {
 #politic-privacid {
   color: #3b3a3a;
   font-weight: bold;
-  padding: 3%;
   font-size: 80%;
+  margin-left: 5%;
 }
 
-footer p {
+.termos-politica p {
   color: #000;
   font-size: 10px;
   text-align: center;
 }
 
+.linha p {
+  color: orange;
+  text-align: center;
+  display: block;
+}
+
 footer ul {
   display: flex;
-  margin-bottom: 25px;
+  margin-top: 5%;
 }
 
 footer ul li {
-  margin-right: 40%;
-  margin-bottom: 30%;
-  margin-top: 15%;
-  padding: 2.5%;
-}
-
-footer ul li:last-child {
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer ul li.ellipsis {
