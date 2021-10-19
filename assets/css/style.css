@@ -193,22 +193,24 @@ footer a:hover {
 }
 
 .termos-politica {
-  font-size: 80%;
   cursor: pointer;
   display: block;
   position: relative;
   margin-top: 20%;
+  text-align: center;
 }
 
 #termos {
   color: #3b3a3a;
   font-weight: bold;
+  font-size: 80%;
 }
 
 #politic-privacid {
   color: #3b3a3a;
   font-weight: bold;
   padding: 3%;
+  font-size: 80%;
 }
 
 footer p {
@@ -231,6 +233,13 @@ footer ul li {
 
 footer ul li:last-child {
   margin-right: 0;
+}
+
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media (max-width: 375px) {
