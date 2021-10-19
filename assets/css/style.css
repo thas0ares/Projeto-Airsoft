@@ -11782,7 +11782,6 @@ form input[type='submit']:hover {
   font-size: 80%;
   cursor: pointer;
   display: block;
-  margin-bottom: 10%;
 }
 
 #forgot-pass {
@@ -11792,6 +11791,8 @@ form input[type='submit']:hover {
   font-size: 80%;
   cursor: pointer;
   display: block;
+  margin-bottom: 1%;
+  margin-top: -6%;
 }
 
 form .email:first-child {
