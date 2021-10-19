@@ -11746,7 +11746,7 @@ h5 {
 
 /*# sourceMappingURL=style.css.map */
 
-/* ### CSS - TELA Login */
+/* ### CSS - ÍNICIO TELA Login */
 
 main.container {
   background: white;
@@ -11912,3 +11912,32 @@ form .senha:first-child {
 }
 
 /* ### CSS - FIM TELA Login */
+
+/* ### CSS - ÍNICIO TELA SOBRE AIRSOFT */
+
+main.containersobre {
+  background: white;
+  width: 100%;
+  margin: auto;
+}
+
+.imagem2 {
+  text-align: center;
+}
+
+.conteudo {
+  display: table;
+}
+
+.imagem1 {
+  display: table-cell;
+  float: left;
+  margin: 10px 0px 10px 20px;
+}
+.texto {
+  margin-top: 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ### CSS - FIM TELA SOBRE AIRSOFT */
