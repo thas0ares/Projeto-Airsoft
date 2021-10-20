@@ -46,6 +46,8 @@ header ul li a:hover {
 nav.nav-produtos {
   background: #343a40;
   color: #fff;
+  cursor: pointer;
+  font-weight: bold;
 }
 nav.nav-produtos a {
   color: #fff;
@@ -70,8 +72,8 @@ nav.nav-produtos ul.nav li ul.nav {
   position: absolute;
   top: 44px;
   left: 0px;
-  background: #343a40;
-  border-top: solid #ffc107 10px;
+  background: #f5f7f8;
+  border-top: solid #ff9c07 10px;
   width: 100%;
 }
 nav.nav-produtos ul.nav li ul.nav li {
@@ -82,12 +84,16 @@ nav.nav-produtos ul.nav li ul.nav li {
   margin-top: 30px;
 }
 .banners-promocionais-statico .banners-promocionais-statico-12x {
-  background-color: #ff0f9a;
-  background-image: url(../images/equipes.jpg);
+  background-color: #47ff0f6b;
+  background-image: url(../images/equipes.PNG);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px gray;
 }
 .banners-promocionais-statico .banners-promocionais-statico-todo-br {
-  background-color: #b343c3;
-  background-image: url(../images/evento.jpg);
+  background-color: #9e1907ea;
+  background-image: url(../images/eventos.PNG);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px gray;
 }
 .banners-promocionais-statico .banners-promocionais-statico-12x,
 .banners-promocionais-statico .banners-promocionais-statico-todo-br {
@@ -110,9 +116,11 @@ nav.nav-produtos ul.nav li ul.nav li {
 .banners-promocionais-statico .banners-promocionais-statico-12x p,
 .banners-promocionais-statico .banners-promocionais-statico-todo-br p {
   font-weight: 100;
-  font-size: 23px;
+  font-size: 22px;
   line-height: 110%;
   margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 .banners-promocionais-statico .banners-promocionais-statico-12x p strong,
 .banners-promocionais-statico .banners-promocionais-statico-todo-br p strong {
@@ -172,19 +180,64 @@ nav.nav-produtos ul.nav li ul.nav li {
 
 footer {
   background: #797979;
-  padding: 25px 0;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
   color: #797979;
+  text-align: center;
 }
+
 footer a {
   color: #000;
 }
+
 footer a:hover {
   color: #000;
 }
-footer h4 {
-  color: #f0870c;
-  font-size: 19px;
+
+.termos-politica {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  text-align: center;
+  margin-top: 7%;
 }
+
+#termos {
+  color: #3b3a3a;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+#politic-privacid {
+  color: #3b3a3a;
+  font-weight: bold;
+  font-size: 80%;
+  margin-left: 5%;
+}
+
+.termos-politica p {
+  color: #000;
+  font-size: 10px;
+  text-align: center;
+}
+
+.linha p {
+  color: orange;
+  text-align: center;
+  display: block;
+}
+
+footer ul {
+  display: flex;
+  margin-top: 5%;
+}
+
+footer ul li {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer ul li.ellipsis {
   width: 100%;
   overflow: hidden;
@@ -7292,6 +7345,8 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11691,7 +11746,7 @@ h5 {
 
 /*# sourceMappingURL=style.css.map */
 
-/* ### CSS - Login */
+/* ### CSS - TELA Login */
 
 main.container {
   background: white;
