@@ -11910,4 +11910,17 @@ form .senha:first-child {
 .senha input:focus ~ .underline::after {
   transform: scaleX(1);
 }
+/* ### CSS - ÍNICIO cadastro */
 
+form {
+  width: 750px;
+  margin: auto;
+  text-align: justify;
+}
+input {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+input:hover{
+  background-color: #ebeff1;
+}

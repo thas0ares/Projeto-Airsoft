@@ -128,7 +128,7 @@
       <!-- end container -->
     </nav>
     <!-- end menu do site -->
-    <main>
+    <main class="container-sobre">
       <h1>
         CADASTRO DO USUÁRIO
       </h1>
@@ -154,13 +154,13 @@
             <p><label for="cidade">Cidade: </label>
               <input type="text" name="tcid" id="cidade" size="40"></p>
             <p><label for="uf">UF</label>
-              <select name="uf" id="uf">
-                <option value="SP">São Paulo</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="MG">Minas Gerais </option>
-                <option value="GO">Goiás</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="PR">Paraná</option>
+              <select name="uf" id="uf" required>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+                <option value="MG">MG</option>
+                <option value="GO">GO</option>
+                <option value="SC">SC</option>
+                <option value="PR">PR</option>
               </select></p>
           </fieldset>
           <p><label for="modal">Pratica qual modalidade: </label>
