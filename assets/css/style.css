@@ -11910,34 +11910,17 @@ form .senha:first-child {
 .senha input:focus ~ .underline::after {
   transform: scaleX(1);
 }
+/* ### CSS - ÍNICIO cadastro */
 
-/* ### CSS - FIM TELA Login */
-
-/* ### CSS - ÍNICIO TELA SOBRE AIRSOFT */
-
-main.containersobre {
-  background: white;
-  width: 100%;
+form {
+  width: 750px;
   margin: auto;
-}
-
-.imagem2 {
-  text-align: center;
-}
-
-.conteudo {
-  display: table;
-}
-
-.imagem1 {
-  display: table-cell;
-  float: left;
-  margin: 10px 0px 10px 20px;
-}
-.texto {
-  margin-top: 5%;
-  justify-content: center;
   text-align: justify;
 }
-
-/* ### CSS - FIM TELA SOBRE AIRSOFT */
+input {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+input:hover{
+  background-color: #ebeff1;
+}
