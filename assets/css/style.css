@@ -11910,17 +11910,58 @@ form .senha:first-child {
 .senha input:focus ~ .underline::after {
   transform: scaleX(1);
 }
-/* ### CSS - ÍNICIO cadastro */
 
-form {
-  width: 750px;
+/* ### CSS - FIM TELA Login */
+
+/* ### CSS - ÍNICIO TELA SOBRE AIRSOFT */
+
+main.container-sobre {
+  background: white;
+  width: 100%;
   margin: auto;
+}
+
+.imagem2 {
+  text-align: center;
+}
+
+.conteudo {
+  display: table;
+}
+
+.imagem1 {
+  display: table-cell;
+  float: left;
+  margin: 10px 0px 10px 20px;
+}
+.texto {
+  margin-top: 5%;
+  justify-content: center;
   text-align: justify;
 }
-input {
-  font-family: sans-serif;
-  font-size: 14pt;
+
+/* ### CSS - FIM TELA SOBRE AIRSOFT */
+
+/*### CSS - INICIO TELA EVENTOS DISPONIVEIS*/
+
+main.container-eventos {
+  background: white;
+  width: 100%;
+  margin: auto;
 }
-input:hover{
-  background-color: #ebeff1;
+
+.imagem3,
+.imagem4,
+.imagem5 {
+  display: table-cell;
+  float: left;
 }
+
+.texto {
+  margin-top: 5%;
+  justify-content: center;
+  text-align: justify;
+}
+/* ### CSS - FIM TELA EVENTOS DISPONIVEIS */
+
+/* ### CSS - ÍNICIO cadastro */
