@@ -11942,4 +11942,25 @@ main.container-sobre {
 
 /* ### CSS - FIM TELA SOBRE AIRSOFT */
 
+/*### CSS - INICIO TELA EVENTOS DISPONIVEIS*/
+
+main.container-eventos {
+  background: white;
+  width: 100%;
+  margin: auto;
+}
+
+.imagem3, .imagem4, .imagem5 {
+  display: table-cell;
+  float: left;
+
+}
+
+.texto {
+  margin-top: 5%;
+  justify-content: center;
+  text-align: justify;
+}
+
+/* ### CSS - FIM TELA EVENTOS DISPONIVEIS */
 
