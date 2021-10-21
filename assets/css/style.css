@@ -73,7 +73,7 @@ nav.nav-produtos ul.nav li ul.nav {
   top: 44px;
   left: 0px;
   background: #f5f7f8;
-  border-top: solid #ff9c07 10px;
+  border-top: solid #fc9541 10px;
   width: 100%;
 }
 nav.nav-produtos ul.nav li ul.nav li {
@@ -161,7 +161,7 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-size: 16px;
 }
 .ranking .colocacao svg {
-  fill: #ffc107;
+  fill: #d87c12;
 }
 .ranking .colocacao strong {
   font-size: 40px;
@@ -11948,19 +11948,49 @@ main.container-eventos {
   background: white;
   width: 100%;
   margin: auto;
+  font-family: sans-serif;
 }
 
-.imagem3, .imagem4, .imagem5 {
+.conteudo-eventos1,
+.conteudo-eventos2,
+.conteudo-eventos3 {
+  display: table;
+  margin-top: 5%;
+  position: relative;
+}
+
+.imagem3 {
   display: table-cell;
   float: left;
-
 }
 
-.texto {
-  margin-top: 5%;
+.texto1,
+.texto2,
+.texto3 {
+  display: table-cell;
+  margin-top: 10px;
   justify-content: center;
   text-align: justify;
+  float: left;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.click1,
+.click2,
+.click3 {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #e47c36;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /* ### CSS - FIM TELA EVENTOS DISPONIVEIS */
-
