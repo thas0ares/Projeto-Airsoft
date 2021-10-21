@@ -6,7 +6,7 @@ form {
     margin: auto;       
 }
 
-input {
+input, textarea {
     width: 100%;
     border-radius: 5px;      
 }
@@ -43,6 +43,7 @@ button:hover {
 .fotoevent {
     width: 800px;
     height: 300px;
-    margin-left: 550px;
-   
-}   
+    margin:0 auto;   
+    display: block;
+} 
+ 
