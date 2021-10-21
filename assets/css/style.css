@@ -11953,6 +11953,7 @@ main.container-eventos {
 .imagem3, .imagem4, .imagem5 {
   display: table-cell;
   float: left;
+  margin: 10px 0px 10px 20px;
 
 }
 
