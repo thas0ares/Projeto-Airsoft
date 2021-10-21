@@ -32,7 +32,12 @@ button:hover {
 @media screen and (max-width: 600px) {
     button {
         width: 100%;
-    }
-    
+    }    
 }
-   
+/* criar evento */
+
+.formularioev {
+    width: 100%;
+    margin: auto;
+
+}   
