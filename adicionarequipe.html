@@ -106,36 +106,48 @@
   <!-- end menu do site -->
 
   <!-- main -->
-  <main class="cadevent">
+  <main class="cad_equipe">
+    <section class="container produtos"></section>
     <h1>CRIE SUA EQUIPE</h1>
-    <img src="assets/images/adicionar-img.jpeg" alt="caixa para adicionar equipe" class="imagem4">
-    <p><label for="team_name">Nome da equipe: </label><input type="text" name="tname" id="team_name" size="40"></p>
-    <p><label for="pais">Pais:</label><input type="text" name="tpais" id="pais"></p>
-    <p><label for="uf">UF</label>
-      <select name="uf" id="uf" required>
-        <option value="SP">SP</option>
-        <option value="RJ">RJ</option>
-        <option value="MG">MG</option>
-        <option value="GO">GO</option>
-        <option value="SC">SC</option>
-        <option value="PR">PR</option>
-      </select>
-    </p>
-    <p><label for="cidade">Cidade: </label><input type="text" name="tcid" id="cidade" size="40"></p>
-    <p><label for="team_members">Membros da equipe:</label><input type="text" name="tmembers" id="team_members"
-        size="40"></p>
-    <p><label for="team_members"></label> </label><input type="text" name="tmembers" id="team_members" size="40"></p>
-    <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40"></p>
-    <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40"></p>
-    <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40"></p>
-    <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40"></p>
-    <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40"></p>
-    <p><Label for="team_history">História da equipe:</Label>
-      <textarea name="caixa" id="team_history" cols="50" rows="10"></textarea>
-    </p>
-
-    <button type="submit" name="botao" id="botao">CADASTRAR EQUIPE</button>
-
+    <div class="formulario">
+      <form method="post" id="formulario" action="#">
+        <fieldset id="dados">
+          <img src="assets/images/adicionar-img.jpeg" alt="caixa para adicionar equipe" class="imagem4">
+          <p><label for="team_name">Nome da equipe: </label><input type="text" name="tname" id="team_name" size="40">
+          </p>
+          <p><label for="pais">Pais:</label><input type="text" name="tpais" id="pais"></p>
+          <p><label for="uf">UF</label>
+            <select name="uf" id="uf" required>
+              <option value="SP">SP</option>
+              <option value="RJ">RJ</option>
+              <option value="MG">MG</option>
+              <option value="GO">GO</option>
+              <option value="SC">SC</option>
+              <option value="PR">PR</option>
+            </select>
+          </p>
+          <p><label for="cidade">Cidade: </label><input type="text" name="tcid" id="cidade" size="40"></p>
+          <p><label for="team_members">Membros da equipe:</label><input type="text" name="tmembers" id="team_members"
+              size="40"></p>
+          <p><label for="team_members"></label> </label><input type="text" name="tmembers" id="team_members" size="40">
+          </p>
+          <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
+          </p>
+          <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
+          </p>
+          <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
+          </p>
+          <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
+          </p>
+          <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
+          </p>
+          <p><Label for="team_history">História da equipe:</Label>
+            <textarea name="caixa" id="team_history" cols="50" rows="10" maxlength="300" minlength="20"></textarea>
+          </p>
+        </fieldset>
+        <button type="submit" name="botao" id="botao" value="Enviar">CADASTRAR EQUIPE</button>
+      </form>
+    </div>
   </main>
 
   <!-- Footer -->
