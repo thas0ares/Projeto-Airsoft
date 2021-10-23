@@ -121,6 +121,7 @@ nav.nav-produtos ul.nav li ul.nav li {
   margin-left: 20px;
   font-weight: bold;
   cursor: pointer;
+  color: white;
 }
 .banners-promocionais-statico .banners-promocionais-statico-12x p strong,
 .banners-promocionais-statico .banners-promocionais-statico-todo-br p strong {
@@ -11846,8 +11847,6 @@ form input[type='submit']:hover {
   font-size: 80%;
   cursor: pointer;
   display: block;
-  margin-bottom: 1%;
-  margin-top: -6%;
 }
 
 form .email:first-child {
@@ -11919,14 +11918,18 @@ main.container-sobre {
   background: white;
   width: 100%;
   margin: auto;
+  font-family: sans-serif;
 }
 
 .imagem2 {
-  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .conteudo {
   display: table;
+  margin-top: 2.5%;
 }
 
 .imagem1 {
@@ -11934,12 +11937,12 @@ main.container-sobre {
   float: left;
   margin: 10px 0px 10px 20px;
 }
+
 .texto {
-  margin-top: 5%;
   justify-content: center;
   text-align: justify;
+  border-top: 2.5%;
 }
-
 /* ### CSS - FIM TELA SOBRE AIRSOFT */
 
 /*### CSS - INICIO TELA EVENTOS DISPONIVEIS*/
@@ -11968,7 +11971,7 @@ main.container-eventos {
 .texto2,
 .texto3 {
   display: table-cell;
-  margin-top: 10px;
+  margin-top: 20px;
   justify-content: center;
   text-align: justify;
   float: left;
@@ -11993,4 +11996,27 @@ main.container-eventos {
   margin-right: 20%;
 }
 
+@media screen and (max-width: 1048px) {
+  .imagem3,
+  .texto1,
+  .texto2,
+  .texto3 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .imagem3,
+  .texto1,
+  .texto2,
+  .texto3 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .click1,
+  .click2,
+  .click3 {
+    width: 100%;
+  }
+}
 /* ### CSS - FIM TELA EVENTOS DISPONIVEIS */
