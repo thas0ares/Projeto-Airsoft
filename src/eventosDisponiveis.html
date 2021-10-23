@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AirSoft - Cadastro</title>
+  <title>AirSoft</title>
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
@@ -28,10 +28,10 @@
 
   <!-- Css -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/cadastro.css">
 </head>
 
 <body>
+
   <!-- header -->
   <header class="container-fluid">
     <!-- container -->
@@ -61,8 +61,8 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="cadastro.html">
-              <a href="./" class="notificacao d-flex align-items-center
+            <a href="#">
+              <a href="cadastro.html" class="notificacao d-flex align-items-center
                     justify-content-center">
                 <img src="./assets/images/alvo.png" class="img-fluid" alt="Alvo - icone Cadastrar">
                 <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89
@@ -91,8 +91,10 @@
       <!-- menu -->
       <ul class="nav">
         <!-- lista de itens -->
-        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
-          </svg>Sobre Airsoft
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex
+                align-items-center">
+          </svg>
+          <a href="sobreAirsoft.html">Sobre Airsoft </a>
           <!-- submenu -->
           <ul>
           </ul>
@@ -100,7 +102,8 @@
         </li>
 
         <!-- lista de itens -->
-        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex
+              align-items-center">
           </svg>Eventos
         </li>
       </ul>
@@ -109,64 +112,55 @@
     <!-- end container -->
   </nav>
   <!-- end menu do site -->
-  <!-- ínicio da MAIN-->
-  <main class="container-sobre">
-    <h1>
-      CADASTRO DO USUÁRIO
-    </h1>
-    <div class="formulario">
-      <form method="post" id="formulario" action="#">
-        <fieldset id="dados">
-          <p><label for="nome">Nome:</label><input type="text" name="tnome" id="nome" size="40" required></p>
-          <p><label for="apelido">Apelido: </label><input type="text" name="tapelido" id="apelido" size="39" required>
-          </p>
-          <p><label for="nasc">Data de Nasc: </label><input type="date" name="tnasc" id="nasc"></p>
-          <label for="sexo">Sexo:</label><select name="" id="sexo">
-            <option selected disabled value="">Selecione</option>
-            <option value="">Masculino</option>
-            <option value="">Feminino</option>
-          </select>
-          <p><label for="email">Email: </label><input type="email" name="tmail" id="email" size="41" required></p>
-          <p><label for="pais">Pais: </label><input type="text" name="tpais" id="pais" size="40"></p>
-          <p><label for="cidade">Cidade: </label>
-            <input type="text" name="tcid" id="cidade" size="40">
-          </p>
-          <p><label for="uf">UF</label>
-            <select name="uf" id="uf" required>
-              <option value="SP">SP</option>
-              <option value="RJ">RJ</option>
-              <option value="MG">MG</option>
-              <option value="GO">GO</option>
-              <option value="SC">SC</option>
-              <option value="PR">PR</option>
-            </select>
-          </p>
-        </fieldset>
-        <p><label for="modal">Pratica qual modalidade: </label>
-          <select name="select" id="modalselect">
-            <option selected disabled value="">Escolha</option>
-            <option value="SK">Skirmish</option>
-            <option value="MI">Milsim</option>
-            <option value="DM">Deathmatch</option>
-            <option value="CB">Capture the Flag</option>
-            <option value="MH">Man Hunt</option>
-            <option value="HT">Hostage</option>
-          </select>
-        </p>
-        <p><label>Operador desde: <input type="date" name="Odata" id="odata"></label></p>
-        <fieldset id="links">
-          <p><label for="site">Site: </label><input type="text" name="tsite" id="site" size="40"></p>
-          <p><label for="facebook">Facebook: </label><input type="text" name="tface" id="facebook" size="40"></p>
-          <p><label for="youtube">Youtube: </label><input type="text" name="tyou" id="youtube" size="40"></p>
-          <p><label for="instagran">Instagram: </label><input type="text" name="tinst" id="instagran" size="40"></p>
-          <p><label for="twitter">Twitter: </label><input type="text" name="ttwit" id="twitter" size="40"></p>
-          <p><label for="g+">G+ Google+: </label><input type="text" name="g+" id="googlemais" size="40"></p>
-        </fieldset>
 
-        <button type="submit" name="botao" id="botao">CADASTRAR</button>
-      </form>
-    </div>
+  <!-- main -->
+  <main class="container-eventos">
+    <section class="container produtos">
+      <!-- Eventos Disponíveis -->
+      <article>
+        <h2 class="d-flex justify-content-center">EVENTOS DISPONÍVEIS</h2>
+
+        <div class="conteudo-eventos1">
+          <img src="./assets/images/imgLocal.jpeg" class="imagem3">
+          <div class="texto1">
+            <p> <strong>Airsoft Day</strong><br /> Evento das melhores equipes
+              em São Paulo,venha e se junte a nós nesta
+              aventura. Será na região de Mogi das Cruzes no dia 01/10/2021 ás
+              08h00 encontre uma equipe ou traga a sua.</p>
+            <button type="submit" class="click1">
+              <a href="#"> Clique aqui para participar desse evento</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="conteudo-eventos2">
+          <img src="./assets/images/imgLocal.jpeg" class="imagem3">
+          <div class="texto2">
+            <p> <strong>Batalha de Airsoft</strong><br /> Não perca esta
+              oportunidade de explorar suas emoções, se cadastre e venha pra ZL. Parque do Carmo em Itaquera - SP dia
+              01/11/2021 as 10h.</p>
+            <button type="submit" class="click2">
+              <a href="#"> Clique aqui para participar desse evento</a>
+            </button>
+          </div>
+        </div>
+        <div class="conteudo-eventos3">
+          <img src="./assets/images/imgLocal.jpeg" class="imagem3">
+          <div class="texto3">
+            <p><strong>MovAirsoft</strong> <br />Antes de iniciar como jogador,
+              é importante estar atento a algumas dicas importantes.Separamos algumas dicas para te ajudar, venha
+              participar do nosso evento e fazer parte
+              desta aventura. Ibiapuera SP dia 25/12/2021 ás 09h30.</p>
+            <button type="submit" class="click3">
+              <a href="#"> Clique aqui para participar desse evento</a>
+            </button>
+          </div>
+        </div>
     </section>
+
+    </article>
+    <!-- listagem dos produtos -->
+    <!-- end container produtos -->
   </main>
   <!-- end main -->
 
@@ -175,8 +169,8 @@
     <!-- container -->
     <section class="container">
       <!-- menus -->
-      <div class="linha">
-        <p>_______________________________________________________________</p>
+      <div class="linha text-center">
+        <p>______________________________________________________</p>
       </div>
       <!-- icons contato -->
       <ul>
@@ -201,11 +195,6 @@
   <script src="./assets/js/jquery.js"></script>
   <script src="./assets/js/popper.js"></script>
   <script src="./assets/js/bootstrap.js"></script>
-
-  <!-- Facebook Plugin -->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v8.0"
-    nonce="WrKsa3W6"></script>
 </body>
 
 </html>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Adicionar Equipe</title>
+  <title>AirSoft-login</title>
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
@@ -29,7 +29,6 @@
 
   <!-- Css -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/cadastro.css">
 </head>
 
 <body>
@@ -62,11 +61,11 @@
           </li>
           <li class="nav-item">
             <a href="#">
-              <a href="#" class="notificacao d-flex align-items-center justify-content-center">
+              <a href="cadastro.html" class="notificacao d-flex align-items-center justify-content-center">
                 <img src="./assets/images/alvo.png" class="img-fluid" alt="Alvo - icone Cadastrar">
                 <path fill-rule="evenodd"
                   d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
-
+                </svg>
                 Cadastrar
               </a>
           </li>
@@ -86,19 +85,19 @@
       <!-- menu -->
       <ul class="nav">
         <!-- lista de itens -->
-        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex
-                    align-items-center">
-          <a href="#"> </a>
-          Sobre Airsoft
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <a href="sobreAirsoft.html"> </a>
+          </svg><a href="sobreAirsoft.html">Sobre Airsoft</a>
           <!-- submenu -->
+          <ul>
+          </ul>
           <!-- end submenu -->
         </li>
 
         <!-- lista de itens -->
-        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex
-                      align-items-center">
-          <a href="#"> </a>
-          Eventos
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <a href="eventosDisponiveis.html"> </a>
+          </svg><a href="eventosDisponiveis.html">Eventos</a>
         </li>
       </ul>
       <!-- menu -->
@@ -108,59 +107,44 @@
   <!-- end menu do site -->
 
   <!-- main -->
-  <main class="cad_equipe">
-    <section class="container produtos">
-      <h2 class="d-flex justify-content-center">Crie sua equipe</h2>
-      <div class="formulario">
-        <form method="post" id="formulario" action="#">
-          <fieldset id="dados">
-            <img src="assets/images/adicionar-img.jpeg" alt="caixa para adicionar equipe" class="imagem4">
-            <p><label for="team_name">Nome da equipe: </label><input type="text" name="tname" id="team_name" size="40">
-            </p>
-            <p><label for="pais">Pais:</label><input type="text" name="tpais" id="pais"></p>
-            <p><label for="uf">UF</label>
-              <select name="uf" id="uf" required>
-                <option value="SP">SP</option>
-                <option value="RJ">RJ</option>
-                <option value="MG">MG</option>
-                <option value="GO">GO</option>
-                <option value="SC">SC</option>
-                <option value="PR">PR</option>
-              </select>
-            </p>
-            <p><label for="cidade">Cidade: </label><input type="text" name="tcid" id="cidade" size="40"></p>
-            <p><label for="team_members">Membros da equipe:</label><input type="text" name="tmembers" id="team_members"
-                size="40"></p>
-            <p><label for="team_members"></label> </label><input type="text" name="tmembers" id="team_members"
-                size="40">
-            </p>
-            <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
-            </p>
-            <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
-            </p>
-            <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
-            </p>
-            <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
-            </p>
-            <p><label for="team_members"></label></label><input type="text" name="tmembers" id="team_members" size="40">
-            </p>
-            <p><Label for="team_history">História da equipe:</Label>
-              <textarea name="caixa" id="team_history" cols="50" rows="10" maxlength="300" minlength="20"></textarea>
-            </p>
-          </fieldset>
-          <button>CADASTRAR EQUIPE</button>
-        </form>
-      </div>
-    </section>
+  <!-- início LOGIIIN -->
+  <main class="container">
+    <h1 class="d-flex justify-content-center"><strong>LOGIN</strong></h1>
+    <article class="row d-flex align-items-center">
+      <form action="">
+        <div class="email">
+          <label>E-mail</label>
+          <input type="email" name="email" id="email" required placeholder="Digite seu E-mail">
+          <div class="underline"></div>
+        </div>
+        <div class="senha">
+          <label>Senha</label>
+          <input type="password" name="Senha" id="Senha" required placeholder="Digite sua senha">
+          <div class="underline"></div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <input onclick="verificarCliente()" type="submit" value="Entrar">
+        </div>
+        <div class="d-flex bd-highlight mb-1">
+          <div class="mr-auto p-2 bd-highlight">
+            <a class="container-fluid" href="#" id="resgiter-container">Cadastre-se</a>
+          </div>
+          <div class="p-2 bd-highlight">
+            <a class="container-fluid" href="#" id="forgot-pass">Esqueceu a senha?</a>
+          </div>
+        </div>
+      </form>
+    </article>
   </main>
+  <!-- end main -->
 
   <!-- Footer -->
   <footer class="container-fluid">
     <!-- container -->
     <section class="container">
       <!-- menus -->
-      <div class="linha">
-        <p>_______________________________________________________________</p>
+      <div class="linha text-center">
+        <p>______________________________________________________</p>
       </div>
       <!-- icons contato -->
       <ul>
